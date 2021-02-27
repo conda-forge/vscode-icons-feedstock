@@ -1,7 +1,7 @@
 About vscode-icons
 ==================
 
-Home: https://github.com/cdr/code-server
+Home: https://github.com/vscode-icons/vscode-icons
 
 Package license: MIT
 
