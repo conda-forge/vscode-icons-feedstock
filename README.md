@@ -140,5 +140,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@janjagusch](https://github.com/janjagusch/)
+* [@conda-forge/code-server](https://github.com/conda-forge/code-server/)
 
