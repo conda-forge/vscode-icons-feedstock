@@ -27,7 +27,7 @@ requirements:
 
 test:
   commands:
-    - code-server --list-extensions --show-versions | grep {{ publisher }}.{{ name }}@{{ version }}
+    - code-server --list-extensions --show-versions --extensions-dir "${PREFIX}/share/code-server/extensions" | grep {{ publisher }}.{{ name }}@{{ version }}
 
 about:
   home: https://github.com/vscode-icons/vscode-icons
