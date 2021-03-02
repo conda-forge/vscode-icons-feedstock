@@ -7,5 +7,5 @@ npx vsce package --out "${PACKAGE_PATH}"
 
 mkdir -p "${EXTENSIONS_DIR}"
 code-server \
-    --install-extension "${PACKAGE_PATH}"
+    --install-extension "${PACKAGE_PATH}" \
     --extensions-dir "${EXTENSIONS_DIR}"
