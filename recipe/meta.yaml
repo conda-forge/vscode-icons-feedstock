@@ -11,18 +11,14 @@ source:
   sha256: 9b4bdc0ad6eda38ea121d9fce1cd30c8b2e911e8c7a10b29cf24040b5af602b5
 
 build:
-  number: 2
+  number: 3
   skip: true  # [win]
 
 requirements:
-  build:
-    - nodejs >=12.4.0
-    - code-server >=1.40.2    
   host:
-    - nodejs >=12.4.0
-    - code-server >=1.40.2
+    - nodejs 12
+    - code-server >=3.9
   run:
-    - nodejs >=12.4.0
     - code-server >=1.40.2
 
 test:
