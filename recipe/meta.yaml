@@ -16,7 +16,8 @@ build:
 
 requirements:
   host:
-    - nodejs 12
+    - nodejs 12  # [not (osx and arm64)]
+    - nodejs 15  # [osx and arm64]
     - code-server >=3.9
   run:
     - code-server >=1.40.2
