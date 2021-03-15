@@ -7,11 +7,11 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  url: https://github.com/{{ name }}/{{ name }}/archive/v.{{ version }}.tar.gz
-  sha256: 9b4bdc0ad6eda38ea121d9fce1cd30c8b2e911e8c7a10b29cf24040b5af602b5
+  url: https://github.com/{{ name }}/{{ name }}/archive/v{{ version }}.tar.gz
+  sha256: cf3b8f778346fef446818a0b518c8e3b2eed0dd953aa613cf256d4c56780eab4
 
 build:
-  number: 4
+  number: 5
   skip: true  # [win]
 
 requirements:
