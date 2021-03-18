@@ -11,7 +11,7 @@ source:
   sha256: b68a5c2ef5faba2fbb4ea2f11164350d878db679d03fd1062c593c19eb05c4ea
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
@@ -20,7 +20,7 @@ requirements:
     - nodejs 15  # [osx and arm64]
     - code-server >=3.9
   run:
-    - code-server >=1.40.2
+    - code-server >=3.9
 
 test:
   commands:
