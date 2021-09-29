@@ -11,13 +11,12 @@ source:
   sha256: b60c8107b4b694bbc8ea4b443f5178c436a48c0c852433822fbb8475bad08034
 
 build:
-  number: 0
-  skip: true  # [win]
+  number: 1
+  skip: true  # [win or nodejs>=15]
 
 requirements:
   host:
-    - nodejs 12  # [not (osx and arm64)]
-    - nodejs 15  # [osx and arm64]
+    - nodejs
     - code-server >=3.9
   run:
     - code-server >=3.9
