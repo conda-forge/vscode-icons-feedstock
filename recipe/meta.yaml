@@ -1,5 +1,5 @@
 {% set name = "vscode-icons" %}
-{% set version = "11.7.0" %}
+{% set version = "11.8.0" %}
 {% set publisher = "vscode-icons-team" %}
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://github.com/{{ name }}/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 6e1863f78ab218c1d044786059222083988b3613c79549c5b794a49e46df636f
+  sha256: e4d24f97b616db57057de0ab9e16664bc6c8cd502c4aa851b24f07ebc2f43fdb
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win or nodejs>=15]
 
 requirements:
