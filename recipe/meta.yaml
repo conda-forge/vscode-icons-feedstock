@@ -11,7 +11,7 @@ source:
   sha256: e4d24f97b616db57057de0ab9e16664bc6c8cd502c4aa851b24f07ebc2f43fdb
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win or nodejs>=15]
 
 requirements:
