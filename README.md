@@ -1,11 +1,11 @@
-About vscode-icons
-==================
+About vscode-icons-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/vscode-icons-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/vscode-icons/vscode-icons
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/vscode-icons-feedstock/blob/main/LICENSE.txt)
 
 Summary: Icons for Visual Studio Code.
 
@@ -14,45 +14,6 @@ Current build status
 
 
 <table>
-    
-  <tr>
-    <td>Azure</td>
-    <td>
-      <details>
-        <summary>
-          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12087&branchName=main">
-            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/vscode-icons-feedstock?branchName=main">
-          </a>
-        </summary>
-        <table>
-          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
-          <tbody><tr>
-              <td>linux_64_nodejs14</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12087&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/vscode-icons-feedstock?branchName=main&jobName=linux&configuration=linux_64_nodejs14" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_nodejs14</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12087&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/vscode-icons-feedstock?branchName=main&jobName=linux&configuration=linux_aarch64_nodejs14" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_nodejs14</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12087&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/vscode-icons-feedstock?branchName=main&jobName=osx&configuration=osx_64_nodejs14" alt="variant">
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </details>
-    </td>
-  </tr>
 </table>
 
 Current release info
