@@ -3,8 +3,6 @@ bot:
   automerge: true
 os_version:
   linux_64: cos7
-provider:
-  linux_aarch64: azure
 github:
   branch_name: main
   tooling_branch_name: main
