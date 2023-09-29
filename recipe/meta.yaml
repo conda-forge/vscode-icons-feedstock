@@ -15,8 +15,11 @@ build:
   skip: true  # [win or (nodejs != 16)]
 
 requirements:
+  build:
+    - nodejs
   host:
     - nodejs
+    - vsce
     - code-server >=3.9
   run:
     - code-server >=3.9
